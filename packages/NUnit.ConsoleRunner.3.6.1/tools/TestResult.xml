@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="4" result="Passed" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="4" engine-version="3.6.1.0" clr-version="4.0.30319.42000" start-time="2017-04-30 17:59:36Z" end-time="2017-04-30 17:59:52Z" duration="15.704306">
+  <command-line><![CDATA[nunit3-console.exe  "C:\Users\Darkbound\Downloads\AutoFramework\AutoFramework\AutoFramework\bin\Debug\AutoFramework.exe"]]></command-line>
+  <test-suite type="Assembly" id="0-1008" name="AutoFramework.exe" fullname="C:\Users\Darkbound\Downloads\AutoFramework\AutoFramework\AutoFramework\bin\Debug\AutoFramework.exe" runstate="Runnable" testcasecount="4" result="Passed" start-time="2017-04-30 17:59:36Z" end-time="2017-04-30 17:59:52Z" duration="15.187351" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+    <environment framework-version="3.6.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.14393.0" platform="Win32NT" cwd="C:\Users\Darkbound\Downloads\AutoFramework\AutoFramework\packages\NUnit.ConsoleRunner.3.6.1\tools" machine-name="DESKTOP-0ME94OD" user="Darkbound" user-domain="DESKTOP-0ME94OD" culture="en-US" uiculture="en-US" os-architecture="x86" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Users\Darkbound\Downloads\AutoFramework\AutoFramework\packages\NUnit.ConsoleRunner.3.6.1\tools" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.5.2" />
+      <setting name="ImageRequiresX86" value="True" />
+      <setting name="RunAsX86" value="True" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="_PID" value="3440" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <test-suite type="TestSuite" id="0-1009" name="AutoFramework" fullname="AutoFramework" runstate="Runnable" testcasecount="4" result="Passed" start-time="2017-04-30 17:59:36Z" end-time="2017-04-30 17:59:52Z" duration="15.170408" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+      <test-suite type="TestFixture" id="0-1000" name="LoginInvalidPassword" fullname="AutoFramework.LoginInvalidPassword" classname="AutoFramework.LoginInvalidPassword" runstate="Runnable" testcasecount="2" result="Passed" start-time="2017-04-30 17:59:36Z" end-time="2017-04-30 17:59:43Z" duration="6.633335" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+        <test-case id="0-1001" name="LessThan5Chars" fullname="AutoFramework.LoginInvalidPassword.LessThan5Chars" methodname="LessThan5Chars" classname="AutoFramework.LoginInvalidPassword" runstate="Runnable" seed="1549502512" result="Passed" start-time="2017-04-30 17:59:42Z" end-time="2017-04-30 17:59:43Z" duration="0.451088" asserts="1" />
+        <test-case id="0-1002" name="MoreThan12Chars" fullname="AutoFramework.LoginInvalidPassword.MoreThan12Chars" methodname="MoreThan12Chars" classname="AutoFramework.LoginInvalidPassword" runstate="Runnable" seed="943926841" result="Passed" start-time="2017-04-30 17:59:43Z" end-time="2017-04-30 17:59:43Z" duration="0.246817" asserts="1" />
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1003" name="LoginInvalidUsername" fullname="AutoFramework.LoginInvalidUsername" classname="AutoFramework.LoginInvalidUsername" runstate="Runnable" testcasecount="2" result="Passed" start-time="2017-04-30 17:59:43Z" end-time="2017-04-30 17:59:52Z" duration="8.529810" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+        <test-suite type="ParameterizedMethod" id="0-1005" name="LessThan5Chars" fullname="AutoFramework.LoginInvalidUsername.LessThan5Chars" classname="AutoFramework.LoginInvalidUsername" runstate="Runnable" testcasecount="1" result="Passed" start-time="2017-04-30 17:59:50Z" end-time="2017-04-30 17:59:51Z" duration="1.684741" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <test-case id="0-1004" name="LessThan5Chars()" fullname="AutoFramework.LoginInvalidUsername.LessThan5Chars()" methodname="LessThan5Chars" classname="AutoFramework.LoginInvalidUsername" runstate="Runnable" seed="1163847253" result="Passed" start-time="2017-04-30 17:59:50Z" end-time="2017-04-30 17:59:51Z" duration="1.681447" asserts="1" />
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1007" name="MoreThan12Chars" fullname="AutoFramework.LoginInvalidUsername.MoreThan12Chars" classname="AutoFramework.LoginInvalidUsername" runstate="Runnable" testcasecount="1" result="Passed" start-time="2017-04-30 17:59:51Z" end-time="2017-04-30 17:59:51Z" duration="0.257034" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <test-case id="0-1006" name="MoreThan12Chars()" fullname="AutoFramework.LoginInvalidUsername.MoreThan12Chars()" methodname="MoreThan12Chars" classname="AutoFramework.LoginInvalidUsername" runstate="Runnable" seed="865324494" result="Passed" start-time="2017-04-30 17:59:51Z" end-time="2017-04-30 17:59:51Z" duration="0.253654" asserts="1" />
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
